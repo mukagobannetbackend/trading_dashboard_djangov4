@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trading Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<div class="sidebar">
+    <h2>Trading Journal</h2>
+    <ul>
+        <li>Dashboard</li>
+        <li>Trades</li>
+        <li>Analytics</li>
+    </ul>
+</div>
+
+<div class="main">
+    <h1>Welcome back, Trader</h1>
+
+    <div class="cards">
+        <div class="card green">P&L: $2847</div>
+        <div class="card blue">Win Rate: 68%</div>
+        <div class="card purple">Trades: 38</div>
+    </div>
+
+    <div class="chart">
+        <canvas id="chart"></canvas>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

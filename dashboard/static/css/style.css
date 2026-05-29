@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background: #020617;
+    position: fixed;
+    padding: 20px;
+}
+
+.main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.green { background: #064e3b; }
+.blue { background: #1e3a8a; }
+.purple { background: #4c1d95; }
+
+.chart {
+    margin-top: 30px;
+}
